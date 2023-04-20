@@ -1,0 +1,5 @@
+image: trustworthysystems/camkes:latest
+
+tasks:
+  - name: Additional python dependencies
+    before: pip install --user aenum pyelftools sortedcontainers
